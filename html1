@@ -74,6 +74,18 @@
   text-align: center;
   border: 0.1px solid black;
 }
+.notice{
+  width: 1000px;
+
+}
+
+    .notice ul li{
+      float: right;
+      list-style-type: none;
+      width: 400px;
+      text-align: center;
+      border: 1px solid black;
+    }
   </style>
 </head>
 <body>
@@ -84,7 +96,7 @@
 </div>
 <div class = "mainmenu">
   <ul class = "main">
-    <li><a href="#">Home</a></li>
+    <li><a href="http://yanbiao330.com">Home</a></li>
     <li><a href="#">Photo</a></li>
     <li><a href="#">Content</a></li>
     <li><a href="#">Contact</a></li>
@@ -92,12 +104,35 @@
     <li><a href="#">Video</a></li>
   </ul>
   <div class= "submenu" >
-  <ul class = login>
-    <li><a href="#">Login</a></li>
-    <li style="width: 100px"><a href="#">Sing Up</a></li>
+  <ul class = "login">
+    <li id = "login1"><a href="#">Login</a></li>
+    <li id = "signup1" style="width: 100px"><a href="#">Sign Up</a></li>
   </ul>
   </div>
 </div>
+<div style="width: 639px;height: 300px;border: 1px solid black;margin: 10px;float: left;animation: 5s ease-out infinite" class = "mainbanner">
+  <ul>
+    <img style="width: 639px;height: 300px;float: left" src="http://img4.imgtn.bdimg.com/it/u=2419861801,3064383001&fm=26&gp=0.jpg"
+    <img style="width: 639px;height: 300px;float: left" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1562310103&di=07c2916187243d31f88cad1f69811dcb&imgtype=jpg&er=1&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01d5a659f06856a801216a4b694ecb.jpg%401280w_1l_2o_100sh.jpg">
+  </ul>
+<div class = "notice">
+  <ul>
+    <li style="width:350px;background-color: black;color: white">Notice</li>
+  </ul>
+  <ul>
+    <li style="width:350px;height: 277.2px;background-color: darkgrey">
+My name is Yeonpyo! Have a nice day!
+    </li>
+  </ul>
+</div>
+</div>
 
+<script>
+var login2 = document.getElementById("login1");
+login2.addEventListener("click",function () {
+  alert("점검중입니다!");
+},true)
+
+</script>
 </body>
 </html>
