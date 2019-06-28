@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>yeonpyo</title>
+
+  <style>
+    html, body, div, span, object, iframe,h1, h2,
+    h3, h4, h5, h6, p, blockquote, pre,abbr, address, cite, code,del, dfn,
+    em, img, ins,kbd, q, samp,small, strong, sub, sup, var,b, i,dl, dt, dd,
+    ol, ul, li,fieldset, form, label, legend,table, caption, tbody,
+    tfoot,thead,tr, th, td,article, aside, canvas, details, figcaption,
+    figure, footer, header, hgroup, menu, nav, section, summary,time, mark,
+    audio, video {
+      margin:0;
+      padding:0;
+      border:0;
+      outline:0;
+      font-size:100%;
+      vertical-align:baseline;
+      background:transparent;
+      outline-style:none;/*FF浣跨敤*/
+    }
+.top1{
+  background: url('http://wallpapercave.com/wp/sW4JXl5.jpg');
+  width: auto;
+  height: 100px;
+
+}
+    #span1{
+      font-size: 50px; color: lavender;
+      position: relative;
+      text-align: center;
+      top: 18px;
+    }
+    .mainmenu{
+       width: 100%;
+      height: 40px;
+       list-style-type: none;
+       background-color: darkmagenta;
+      border: 0.1px solid black;
+     }
+
+    .mainmenu ul{
+      padding: 0px;
+      list-style-type: none;
+      text-align: center;
+    }
+    .mainmenu ul li{
+      border: 0.1px solid black;
+      float: left;
+      width : 100px;
+      height: 40px;
+      line-height: 40px;
+      background-color: darkmagenta;
+    }
+    .mainmenu ul li a{
+       text-decoration: none;
+       color: azure;
+       display: block;
+     }
+    .mainmenu ul li a:hover{
+      background-color: #9ad2f6;
+    }
+    .mainmenu ul li a:active{
+      background-color: #9ad2f6;
+    }
+    .mainmenu ul li a:focus{
+      background-color: #9ad2f6;
+    }
+.submenu ul li{
+  float: right;
+  width: 200px;
+  text-align: center;
+  border: 0.1px solid black;
+}
+  </style>
+</head>
+<body>
+<div class = "top1">
+  <span id = "span1">
+    <p>Welcome My Friend</p>
+  </span>
+</div>
+<div class = "mainmenu">
+  <ul class = "main">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Photo</a></li>
+    <li><a href="#">Content</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">News</a></li>
+    <li><a href="#">Video</a></li>
+  </ul>
+  <div class= "submenu" >
+  <ul class = login>
+    <li><a href="#">Login</a></li>
+    <li style="width: 100px"><a href="#">Sing Up</a></li>
+  </ul>
+  </div>
+</div>
+
+</body>
+</html>
