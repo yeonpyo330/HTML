@@ -176,6 +176,7 @@
       <li><a href="#">Contact</a></li>
       <li><a href="#">News</a></li>
       <li><a href="#">Video</a></li>
+      <li><a href="#">Game</a></li>
     </ul>
     <div class="submenu">
       <ul class="login">
@@ -195,7 +196,7 @@
       </ul>
       <ul>
         <li style="width:350px;height: 277.2px;background-color: darkgrey">
-          My name is Yeonpyo! Have a nice day!
+          My name is Yeonpyo! Have a nice day!<br/>asdasdas djashdkashkdahskjdakshdkj<br />askdhaskjdkashdkjahskjdahsd
         </li>
       </ul>
     </div>
