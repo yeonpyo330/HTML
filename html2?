@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>yeonpyo</title>
+    <style>
+        html,
+        body,
+        div,
+        span,
+        object,
+        iframe,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        blockquote,
+        pre,
+        abbr,
+        address,
+        cite,
+        code,
+        del,
+        dfn,
+        em,
+        img,
+        ins,
+        kbd,
+        q,
+        samp,
+        small,
+        strong,
+        sub,
+        sup,
+        var,
+        b,
+        i,
+        dl,
+        dt,
+        dd,
+        ol,
+        ul,
+        li,
+        fieldset,
+        form,
+        label,
+        legend,
+        table,
+        caption,
+        tbody,
+        tfoot,
+        thead,
+        tr,
+        th,
+        td,
+        article,
+        aside,
+        canvas,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        section,
+        summary,
+        time,
+        mark,
+        audio,
+        video {
+          margin: 0;
+          padding: 0;
+          border: 0;
+          outline: 0;
+          font-size: 100%;
+          vertical-align: baseline;
+          background: transparent;
+          outline-style: none;
+          /*FF浣跨敤*/
+        }
+        
+        .top1 {
+          background: url('http://wallpapercave.com/wp/sW4JXl5.jpg');
+          width: 100%;
+          height: 10%;
+          
+        }
+        
+        #span1 {
+          position: static;
+          font-size: 50px;
+          color: lavender;
+          position: relative;
+          text-align: center;
+        }
+        
+        .mainmenu {
+         
+          height: 100%;
+          list-style-type: none;
+          background-color: darkmagenta;
+          border: 0.1px solid black;
+        }
+        
+        .mainmenu ul {
+          padding: 0px;
+          list-style-type: none;
+          text-align: center;
+        }
+        
+        .mainmenu ul li {
+          border: 0.1px solid black;
+          float: left;
+          width: 10%;
+          height: 100%;
+          line-height: 100%;
+          background-color: darkmagenta;
+        }
+        
+        .mainmenu ul li a {
+          text-decoration: none;
+          color: azure;
+          display: block;
+         
+        }
+        
+        .mainmenu ul li a:hover {
+          background-color: #9ad2f6;
+        }
+        
+        .mainmenu ul li a:active {
+          background-color: #9ad2f6;
+        }
+        
+        .mainmenu ul li a:focus {
+          background-color: #9ad2f6;
+        }
+        
+        .submenu ul li {
+          float: left;
+          text-align: center;
+          border: 0.1px solid black;
+          position:static;
+        }
+        
+    .notice{
+        float: left;
+    }
+     
+        
+        .notice ul li {
+          list-style-type: none;
+          text-align: center;
+          border: 1px solid black;
+        }
+      </style>
+    </head>
+    
+    <body>
+      <div class="top1">
+        <span id="span1">
+          <p>Welcome My Friend</p>
+        </span>
+      </div>
+      <div class="mainmenu">
+        <ul class="main">
+          <li><a href="http://naver.com">Home</a></li>
+          <li><a href="#">Photo</a></li>
+          <li><a href="#">Content</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Video</a></li>
+          <li><a href="#">Game</a></li>
+        </ul>
+        <div class="submenu">
+          <ul class="login">
+            <li id="login1" style="width:14.9%;"><a href="#">Login</a></li>
+            <li id="sain1" style="width:14%;"><a href="#">Sign Up</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="mainbanner"></div>
+        <ul>
+          <img style="float:left;width: 30%;height: 20%;margin-top:2%;margin-left: 0.5%" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1562310103&di=07c2916187243d31f88cad1f69811dcb&imgtype=jpg&er=1&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01d5a659f06856a801216a4b694ecb.jpg%401280w_1l_2o_100sh.jpg">
+        </ul>
+    </div>
+        <div class="notice">
+          <ul>
+            <li style="width:30%;height:30%;background-color: black;color: white;margin-top:2%;margin-left: 0.5%">Notice</li>
+          </ul>
+          <ul>
+            <li style="width:30%;height: 30%;background-color: darkgrey;margin-left: 0.5%;float:left">
+              My name is Yeonpyo! Have a nice day!
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div style="border: 1px solid black;float:left;width:30%;margin-top: 0.5%;margin-left: 0.1%;height: 20%;">
+        <ul id="sainmessage">have a nice day</ul>
+      </div>
+    
+    
+      <script>
+        var login2 = document.getElementById("login1");
+        login2.addEventListener("click", function() {
+          alert("점검중입니다!");
+        }, true)
+        var getmessage = document.getElementById("sainmessage");
+        var sain = document.getElementById("sain1");
+        sain.addEventListener("click", function() {
+          getmessage.innerHTML += "현재는 회원가입 기능을 이용하실수 없습니다.수고하세요!";
+        })
+      </script>
+    </body>
+    
+    </html>
