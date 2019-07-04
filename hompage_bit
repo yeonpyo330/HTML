@@ -376,7 +376,7 @@ height: 50px;
       <script>
         var login2 = document.getElementById("login1");
         login2.addEventListener("click", function() {
-          alert("점검중입니다!");
+          alert("Don't Touch me man!");
         }, true)
       var map1 = document.getElementById("test1")
       map1.addEventListener("click",function() {
