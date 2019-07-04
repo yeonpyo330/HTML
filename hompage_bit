@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>yeonpyo</title>
+    <style>
+        html,
+        body,
+        div,
+        span,
+        object,
+        iframe,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        blockquote,
+        pre,
+        abbr,
+        address,
+        cite,
+        code,
+        del,
+        dfn,
+        em,
+        img,
+        ins,
+        kbd,
+        q,
+        samp,
+        small,
+        strong,
+        sub,
+        sup,
+        var,
+        b,
+        i,
+        dl,
+        dt,
+        dd,
+        ol,
+        ul,
+        li,
+        fieldset,
+        form,
+        label,
+        legend,
+        table,
+        caption,
+        tbody,
+        tfoot,
+        thead,
+        tr,
+        th,
+        td,
+        article,
+        aside,
+        canvas,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        section,
+        summary,
+        time,
+        mark,
+        audio,
+        video {
+          margin: 0;
+          padding: 0;
+          border: 0;
+          outline: 0;
+          font-size: 100%;
+          vertical-align: baseline;
+          background: transparent;
+          outline-style: none;
+          /*FF浣跨敤*/
+        }
+        * {
+  box-sizing: border-box;
+}
+        .top1 {
+          background: url('http://bpic.588ku.com/back_pic/00/04/57/7356249687ecb18.jpg');
+          width: 100%;
+          height: 10%;
+          box-sizing: border-box;
+         
+          
+        }
+        
+        #span1 {
+          position: static;
+          font-size: 50px;
+          color: black;
+          position: relative;
+          text-align: center;
+        }
+        
+        .mainmenu {
+         
+          height: 100%;
+          list-style-type: none;
+          background-color: darkmagenta;
+          border: 0.1px solid black;
+          overflow: hidden;
+          
+          
+          
+        }
+        
+        .mainmenu ul {
+          padding: 0px;
+          list-style-type: none;
+          text-align: center;
+          display:block;
+          
+        }
+        
+        .mainmenu ul li {
+          border: 0.1px solid black;
+          float: left;
+          width: 10%;
+          height: 100%;
+          line-height: 100%;
+          background-color: darkmagenta;
+          
+        }
+        
+        .mainmenu ul li a {
+          text-decoration: none;
+          color: azure;
+          display: block;
+    
+          padding:10px;
+        }
+.no1 :hover{
+background-color: aqua;
+border-radius: 100%;
+width: 50px;
+height: 50px;
+}
+.no2 :hover{
+background-color: aqua;
+border-radius: 100%;
+width: 50px;
+height: 50px;
+}
+.no3 :hover{
+background-color: aqua;
+border-radius: 100%;
+width: 50px;
+height: 50px;
+}
+         
+.main{
+        border-radius: 10px;
+        background-color:ivory;
+        padding: 20px;
+    }
+    .main ul li{
+        list-style: none;
+    }
+    input[type=text],select{
+        width:100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    input[type=submit]{
+        width : 100px;
+        height : 50px;
+        background-color:lavender;
+        color:black;
+        font-size: 20px;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border-radius: 10px;
+        border:none;
+        cursor:pointer;
+       
+    
+      </style>
+    </head>
+    
+    <body>
+      <div class="top1">
+        <span id="span1">
+          <p>Welcome My Friend</p>
+        </span>
+      </div>
+      <div class="mainmenu">
+        <ul class="main">
+          <li><a href="http://naver.com">Home</a></li>
+          <li><a href="#">Photo</a></li>
+          <li><a href="#">Content</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Video</a></li>
+          <li><a href="#">Game</a></li>
+        </ul>
+        <div class="submenu">
+          <ul class="login">
+            <li id="login1" style="width:14.9%;"><a href="#">Login</a></li>
+            <li id="sain1" style="width:14.9%;"><a href="#">Sign Up</a></li>
+          </ul>
+        </div>
+      </div>
+
+  
+
+
+<div class="topbanner" style="background-image: url(&quot;https://www.bit-agent.co.jp/wp-content/uploads/2018/04/hero.jpg&quot;);
+   background-size: cover; background-position: center top; height: 931.3px; transform: translate(0px, -8.27625px);"
+    data-parallax-speed="0.1">
+    <div class="toptext" style="color: black;position: absolute;float: left;width: 15%;height: 200px;margin-left: 65%;margin-top: 500px">
+      <ul style="padding: 30px 100px 0px 20px;color: royalblue;font-size:60px;">Bit Corporation</ul>
+
+</div>
+  </div>
+
+  <div class="companyinformation" style="height:500px;background-color: white;">
+    <div style="margin-left: 40%;padding: 20px 135px 0px 30px;position: absolute">
+      <ul>INFO<br>会社情報<br><br></ul>
+      <li class="infolist1">
+<span>商号 <br> 株式会社ビット</span>
+      </li>
+      <li class="infolist2">
+          <span>本社 <br> 〒 169-0072 東京都新宿区大久保1-17-7<br> メゾン豊ビル 5-B Tel: 03-6459-2455 / <br>Fax: 03-6459-2465</span>
+                </li>
+        <li class="infolist3">
+        <span>取締役 <br> 代表取締役 李 潤賢(イ ユンヒョン)</span>
+        </li>
+      </li>
+      <li class="infolist4">
+      <span>稼働人数 <br> 40人</span>
+      </li>
+    </li>
+    <li class="infolist5">
+    <span>有料職業紹介事業許可番号 <br> 13-ユ-310272</span>
+    </li>
+    </div>
+    <div style="position: absolute;margin-left: 15%;">
+        <img src="https://www.bit-agent.co.jp/wp-content/uploads/2018/04/service-image-1.png" height="80%" width="80%">
+        </div>
+        <div style="position: absolute;margin-left: 70%;padding: 20px 135px 0px 30px;">
+<ul>
+  <p><br><br><br></p>
+    <li class="infolist6">
+        <span>設立 <br> 2016年4月12日(平成28年4月12日)</span>
+        </li>
+        <li class="infolist7">
+            <span>資本金 <br> 25,000,000円 </span>
+            </li>    
+            <li class="infolist8">
+                <span>事業内容 <br> SES事業、受託開発、アプリ開発、人材仲介 </span>
+                </li>
+                <li class="infolist9">
+                    <span>労働者派遣事業許可番号 <br> 派13-313248 </span>
+                    </li>      
+</ul>
+        </div>
+    </div>
+<div style="position: relative;height: 500px;">
+    <ul style="padding: 10px;margin-left: 5%;font-size: 40px;">BIT Philosophy<br><br></ul>
+    <div style="position: absolute;margin-left: 50%;">
+        <img src="https://www.bit-agent.co.jp/wp-content/uploads/2018/04/service-image-2.png" width="80%" height="80%">
+      </div>
+    
+    <div style="padding: 10px 70px 0px 30px;width: 40%;float: left;margin-left: 4%;">
+      <span>経営理念<br><br>今後ますます情報技術の革新により、より豊かに便利に時代は変わります。<br><br>
+
+        我々ビットでは、IT分野においてその技術ノウハウと業務ノウハウを蓄積し活かすことで、新たな企業経済活動を、最新技術を駆使することで支えます。<br><br>
+        
+        そして企業の売上げ拡大、コスト低減、業務効率化を促進し、 より良い社会を創造するために、成果を上げることをお約束します。</span>
+  
+  </div>
+</div>
+<div calss="roadmap" style="height: 500px;background:whitesmoke;margin-top: 20px;position: relative;">
+<div class="head" style="position: absolute;margin-left: 50%;">
+<ul style="padding:10px;float:left;text-align: center;">
+  <h1 style="color: royalblue;font-size:20px;">HISTORY</h1>
+  <span>沿革</span>
+</ul>
+</div>
+<div style="position:absolute;padding:20px 120px 0px 30px;margin-left: 40%;margin-top: 5%;">
+    <ul class="leftlist1">
+        <li style="list-style-type: none;">
+      <h1>設立</h1>
+      <span>2016.04</span>
+        </li>
+        <li style="list-style-type: none;margin-top: 50px;">
+            <h1>本社移転</h1>
+            <span>2016.07</span>
+              </li>
+              <li style="list-style-type: none;margin-top: 50px;">
+                  <h1>支店設立</h1>
+                  <span>2017.09</span>
+                    </li>
+                  </ul>
+</div>
+<div class = "new1" style="position:absolute;padding:20px 120px 0px 30px;margin-left: 60%;margin-top: 5%;">
+<p id="insert" >2016.04  設立神奈川県大和市  株式会社ビット設立 </p>
+</div>
+
+<div  class ="no1" style="position:absolute; background-color: slateblue;border-radius: 100%;margin-left: 51.6%;margin-top: 100px;width:50px;height: 50px;color: snow;">
+  <ul id = "test1">
+      <p style="font-size: 40px;text-align: center;" >1</p>
+  </ul>
+</div>
+<div  class ="no2" style="position:absolute; background-color: slateblue;border-radius: 100%;margin-left: 51.6%;margin-top: 190px;width:50px;height: 50px;color: snow;">
+    <ul id = "test2">
+        <p style="font-size: 40px;text-align: center;">2</p>
+    </ul>
+  </div>
+  <div  class ="no3" style="position:absolute; background-color: slateblue;border-radius: 100%;margin-left: 51.6%;margin-top: 280px;width:50px;height: 50px;color: snow;">
+      <ul id = "test3">
+          <p style="font-size: 40px;text-align: center;">3</p>
+      </ul>
+    </div>
+<div style="padding: 20px 50px 0px 30px;position: relative;">
+  <ul style="display: none;">
+    <li id="newroad1" style="list-style-type: none;width: 20%;height: 100px;">2016.04  <br>設立<br><br>神奈川県大和市  <br>株式会社ビット設立  </li>
+  </ul>
+  <ul style="display: none;">
+      <li id="newroad2" style="list-style-type: none;width: 20%;height: 100px;">2016.07  本社移転  渋谷に本社移転 </li>
+    </ul>
+    <ul style="display: none;">
+        <li id="newroad3" style="list-style-type: none;width: 20%;height: 100px;">2017.09  支店設立  韓国営業支店設立 </li>
+      </ul>
+  
+</div>
+</div>
+
+<div style="height: 1000px;">
+    <form>
+        <div class = "main">
+        <p style="font-size: 30px;">Contact<br>株式会社ビット</p>
+        <p>本社 〒 169-0072 東京都新宿区大久保1-17-7 メゾン豊ビル 5-B</p>
+        <p>Tel: 03-6459-2455 </p>
+        <p>Fax: 03-6459-2465</p>
+            <ul>
+                <li>
+                <br>
+    <label for="fname">First name</label>
+    <input type="text" id="fname" name="firstname" placeholder="your first name"
+    <label for="lname">Last name</label>
+    <input type="text" id="lname" name="lastname" placeholder="your last name"
+    <label for="country">Country</label>
+    <select id="country" name="country">
+    <option value="China">China</option>
+    <option value="Japan">Japan</option>
+    <option value="Korea">Korea</option>
+    
+    </select>
+    <input style="margin-left: 50%;" type="submit" value="submit">
+    
+                </li>
+            </ul>
+        
+        </div>
+        </form>
+  </div>
+
+      <script>
+        var login2 = document.getElementById("login1");
+        login2.addEventListener("click", function() {
+          alert("점검중입니다!");
+        }, true)
+      var map1 = document.getElementById("test1")
+      map1.addEventListener("click",function() {
+        document.getElementById("insert").innerHTML=newroad_1.innerText;
+        
+      });
+      var map1 = document.getElementById("test2")
+      map1.addEventListener("click",function() {
+        document.getElementById("insert").innerHTML=newroad_2.innerText;
+        
+      });
+      var map1 = document.getElementById("test3")
+      map1.addEventListener("click",function() {
+        document.getElementById("insert").innerHTML=newroad_3.innerText;
+        
+      });
+      var newroad_1 = document.getElementById("newroad1");
+      var newroad_2 = document.getElementById("newroad2");
+      var newroad_3 = document.getElementById("newroad3");
+
+      </script>
+    </body>
+    
+    </html>
