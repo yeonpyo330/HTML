@@ -195,20 +195,20 @@ height: 50px;
     </head>
     
     <body>
-      <div class="top1">
+      <div class="top1" >
         <span id="span1">
           <p>Welcome My Friend</p>
         </span>
       </div>
       <div class="mainmenu">
-        <ul class="main">
-          <li><a href="http://naver.com">Home</a></li>
-          <li><a href="#">Photo</a></li>
-          <li><a href="#">Content</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">News</a></li>
-          <li><a href="#">Video</a></li>
-          <li><a href="#">Game</a></li>
+        <ul class="main1">
+          <li><a href="http://google.com">Home</a></li>
+          <li><a href="http://google.com">Photo</a></li>
+          <li><a href="http://google.com">Content</a></li>
+          <li><a href="http://google.com">Contact</a></li>
+          <li><a href="http://google.com">News</a></li>
+          <li><a href="http://google.com">Video</a></li>
+          <li><a href="http://google.com">Game</a></li>
         </ul>
         <div class="submenu">
           <ul class="login">
@@ -240,7 +240,7 @@ height: 50px;
           <span>本社 <br> 〒 169-0072 東京練馬区光が丘5-2-5<br>
                 </li>
         <li class="infolist3">
-        <span>取締役 <br> 代表取締役 李 潤賢(イ ユンヒョン)</span>
+        <span>取締役 <br> 代表取締役 ヨン　ピョ</span>
         </li>
       </li>
       <li class="infolist4">
@@ -375,6 +375,10 @@ height: 50px;
       <script>
         var login2 = document.getElementById("login1");
         login2.addEventListener("click", function() {
+          alert("Don't Touch me man!");
+        }, true)
+        var login3 = document.getElementById("sain1");
+        login3.addEventListener("click", function() {
           alert("Don't Touch me man!");
         }, true)
       var map1 = document.getElementById("test1")
